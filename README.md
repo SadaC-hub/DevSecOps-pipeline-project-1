@@ -76,4 +76,3 @@ Built as part of the **Cyber Agoge DevSecOps Bootcamp** - training the next gene
 
 ---
 *Note: Vulnerabilities in this project are intentional for educational purposes. Never deploy this code to production.*
-EOF
