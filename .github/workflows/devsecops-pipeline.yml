@@ -43,6 +43,9 @@ jobs:
   sca-trivy:
     name: SCA - Dependency Scanning
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
 
     steps:
       - name: Checkout repository
@@ -69,6 +72,9 @@ jobs:
   iac-scanning:
     name: IaC - Terraform Security
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
 
     steps:
       - name: Checkout repository
@@ -114,6 +120,9 @@ jobs:
     name: Container Security - Image Scan
     runs-on: ubuntu-latest
     needs: [sast-codeql, sca-trivy]
+    permissions:
+      contents: read
+      security-events: write
 
     steps:
       - name: Checkout repository
