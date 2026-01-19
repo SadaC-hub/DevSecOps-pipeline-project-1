@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # DevSecOps Pipeline for NexusCore Technologies
 
 ![Security Pipeline](https://img.shields.io/badge/Security-Pipeline-green)
