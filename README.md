@@ -44,6 +44,7 @@ flowchart LR
     SCANS --> SCA[Trivy - SCA]
     SCANS --> SECRETS[Gitleaks - Secret Scan]
     SCANS --> IAC[Trivy - IaC]
+```
 
 ---
 
