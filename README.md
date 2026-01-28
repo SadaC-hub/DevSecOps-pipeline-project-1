@@ -89,12 +89,13 @@ git push
 
 # The pipeline runs automatically on push
 # View results in the Actions tab
-
----
+``` 
 
 ## About This Project
 
-Built as part of the **Cyber Agoge DevSecOps Bootcamp** - training the next generation of security engineers.
+Built as part of the **Cyber Agoge DevSecOps Bootcamp** – training the next generation of security engineers.
 
 ---
+
 *Note: Vulnerabilities in this project are intentional for educational purposes. Never deploy this code to production.*
+
