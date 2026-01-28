@@ -18,6 +18,15 @@ This repository demonstrates a production-ready DevSecOps pipeline built for **N
 ![License](https://img.shields.io/github/license/SadaC-hub/DevSecOps-pipeline-project-1)
 
 ---
+## Security Outcomes
+
+This pipeline enables NexusCore to:
+- Detect vulnerabilities before deployment
+- Prevent leaked secrets from entering source control
+- Block builds containing high-severity CVEs
+- Surface IaC misconfigurations early in the delivery lifecycle
+
+---
 
 ## Security Tools Implemented
 
@@ -45,6 +54,26 @@ flowchart LR
     SCANS --> SECRETS[Gitleaks - Secret Scan]
     SCANS --> IAC[Trivy - IaC]
 ```
+
+### Application Context (High Level)
+
+```mermaid
+flowchart LR
+    UI[Web UI] --> API[Flask API]
+    API --> DB[(PostgreSQL)]
+```
+
+---
+
+
+## Tech Stack
+
+**Languages:** Python  
+**CI/CD:** GitHub Actions  
+**Security Tools:** CodeQL, Trivy, Gitleaks  
+**IaC:** Terraform (AWS)  
+**Cloud:** AWS  
+**Containers:** Docker  
 
 ---
 
