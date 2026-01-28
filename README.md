@@ -13,6 +13,12 @@ This repository demonstrates a production-ready DevSecOps pipeline built for **N
 - **Challenge**: 3 security incidents in Q4, investors demanding improved security posture
 - **Solution**: Shift-left security approach with automated scanning in CI/CD
 
+![Last Commit](https://img.shields.io/github/last-commit/SadaC-hub/DevSecOps-pipeline-project-1)
+![Issues](https://img.shields.io/github/issues/SadaC-hub/DevSecOps-pipeline-project-1)
+![License](https://img.shields.io/github/license/SadaC-hub/DevSecOps-pipeline-project-1)
+
+---
+
 ## Security Tools Implemented
 
 | Tool | Purpose | Stage |
@@ -22,16 +28,25 @@ This repository demonstrates a production-ready DevSecOps pipeline built for **N
 | **Gitleaks** | Secret Detection | Pre-commit |
 | **Trivy IaC** | Infrastructure as Code Security | Build |
 
+---
+
+
 ## Architecture
 
-\`\`\`
-Developer Push --> GitHub Actions --> Security Scans --> Docker Build --> AWS Deployment
-                        |
-                        ├── SAST (CodeQL)
-                        ├── SCA (Trivy)
-                        ├── Secret Scan (Gitleaks)
-                        └── IaC Scan (Trivy)
-\`\`\`
+```mermaid
+flowchart LR
+    Dev[Developer Push] --> GH[GitHub Actions]
+    GH --> SCANS[Security Scans]
+    SCANS --> BUILD[Docker Build]
+    BUILD --> DEPLOY[AWS Deployment]
+
+    SCANS --> SAST[CodeQL - SAST]
+    SCANS --> SCA[Trivy - SCA]
+    SCANS --> SECRETS[Gitleaks - Secret Scan]
+    SCANS --> IAC[Trivy - IaC]
+
+---
+
 
 ## Security Findings
 
@@ -50,6 +65,9 @@ This project intentionally includes vulnerabilities for educational purposes:
 - S3 bucket without encryption
 - Security group with overly permissive rules
 
+---
+
+
 ## Skills Demonstrated
 
 - **CI/CD**: GitHub Actions workflow design
@@ -59,15 +77,17 @@ This project intentionally includes vulnerabilities for educational purposes:
 - **IaC**: Terraform with AWS
 - **Secret Management**: Gitleaks configuration
 
-## Getting Started
+---
 
-\`\`\`bash
-# Clone the repository
+## Pipeline Execution
+
+No local setup required. The pipeline triggers automatically:
+
+```bash
 git clone https://github.com/SadaC-hub/DevSecOps-pipeline-project-1.git
-
-# The pipeline runs automatically on push
-# View results in the Actions tab
-\`\`\`
+git push
+**The pipeline runs automatically on push
+**View results in the Actions tab
 
 ## About This Project
 
