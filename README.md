@@ -79,7 +79,6 @@ This project intentionally includes vulnerabilities for educational purposes:
 - **Secret Management**: Gitleaks configuration
 
 ---
-
 ## Pipeline Execution
 
 No local setup required. The pipeline triggers automatically:
@@ -88,9 +87,8 @@ No local setup required. The pipeline triggers automatically:
 git clone https://github.com/SadaC-hub/DevSecOps-pipeline-project-1.git
 git push
 
-
-**The pipeline runs automatically on push**
-**View results in the Actions tab**
+# The pipeline runs automatically on push
+# View results in the Actions tab
 
 ---
 
