@@ -87,8 +87,12 @@ No local setup required. The pipeline triggers automatically:
 ```bash
 git clone https://github.com/SadaC-hub/DevSecOps-pipeline-project-1.git
 git push
-**The pipeline runs automatically on push
-**View results in the Actions tab
+
+
+**The pipeline runs automatically on push**
+**View results in the Actions tab**
+
+---
 
 ## About This Project
 
