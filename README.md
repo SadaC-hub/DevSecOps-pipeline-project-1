@@ -1,8 +1,16 @@
 # DevSecOps Pipeline for NexusCore Technologies
 
+![Platform](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Security Pipeline](https://img.shields.io/badge/Security-Pipeline-green)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)
-![AWS](https://img.shields.io/badge/Cloud-AWS-orange)
+![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS-orange?logo=amazonaws&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![SAST](https://img.shields.io/badge/SAST-CodeQL-000000?logo=github&logoColor=white)
+![SCA](https://img.shields.io/badge/SCA-Trivy-1904DA?logo=aqua&logoColor=white)
+![Secrets](https://img.shields.io/badge/Secrets-Gitleaks-E11D48?logo=git&logoColor=white)
+![IaC](https://img.shields.io/badge/IaC-Scanning-623CE4?logo=terraform&logoColor=white)
+
+![Project](https://img.shields.io/badge/Project-DevSecOps%20Scanning%20Pipeline%20(Project%201)-blue)
+
 
 ## Project Overview
 
