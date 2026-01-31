@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Security Pipeline](https://img.shields.io/badge/Security-Pipeline-green)
-![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS-orange?logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/Cloud-AWS-orange)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![SAST](https://img.shields.io/badge/SAST-CodeQL-000000?logo=github&logoColor=white)
 ![SCA](https://img.shields.io/badge/SCA-Trivy-1904DA?logo=aqua&logoColor=white)
